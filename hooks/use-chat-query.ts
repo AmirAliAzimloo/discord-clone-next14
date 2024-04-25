@@ -22,7 +22,7 @@ export const useChatQuery = ({
     const url = qs.stringifyUrl({
       url: apiUrl,
       query: {
-        cursor: pageParam,
+        cursor: pageParam, 
         [paramKey]: paramValue,
       }
     }, { skipNull: true });
